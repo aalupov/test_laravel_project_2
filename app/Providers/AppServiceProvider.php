@@ -26,6 +26,6 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         Schema::defaultStringLength(191);
-        URL::forceScheme('https');
+        //URL::forceScheme('https');
     }
 }
